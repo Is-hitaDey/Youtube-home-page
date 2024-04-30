@@ -1,0 +1,469 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    background-color:#000000fe;
+}
+
+/** navbar **/
+
+.navbar{
+    height:60px;
+    /* border:1px solid white; */
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top: 0.5rem;
+}
+.settings{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.menu{
+    width:3rem;
+    font-size:1.5rem;
+    height:3rem;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    position:fixed;
+    left: 13px;
+    z-index:1;
+}
+
+.menu:hover{
+    background-color:rgb(26, 26, 26);
+}
+
+
+.icon{
+    background-image: url("new-youtube-logo.jpg");
+    background-size: cover;
+    height: 56px;
+    width: 120px;
+    padding-bottom:20px;
+    margin-left:3rem;
+    position:relative;
+    right: 25px;
+
+} 
+
+.search-bar{
+    display:flex;
+    width:50%;
+}
+
+
+.input2{
+    border:none;
+    border:1px solid rgb(26,26,26);
+    background-color:#0d0d0d;
+    color:#ffffffe0;
+    height: 42px;
+    font-size: 1rem;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px ;
+   padding-left:1rem;
+   width:580px;
+   
+}
+
+.search-icon{
+    background-color:  rgb(26, 26, 26);
+    width:4rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.20rem;
+}
+
+.speaker{
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    background-color: rgb(26, 26, 26);
+    margin-left: 1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size:1.25rem;
+}
+
+.speaker:hover{
+    background-color:rgb(38, 38, 38);
+}
+
+.settings{
+    display:flex;   
+    justify-content: center;; 
+    align-items:center;
+
+}
+
+.upload{
+    width:3rem;
+    font-size:1rem;
+    height:3rem;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.upload:hover{
+    background-color:rgb(26, 26, 26);
+}
+
+.notification{
+    font-size:1.25rem;
+    height:3rem;
+    width:3rem;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.notification:hover{
+    background-color:rgb(26, 26, 26);
+}
+
+.account{
+    height:45px;
+    width:45px;
+    border-radius:50%;
+    background-color:hotpink;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.5rem;
+    margin-left: 1.5rem;
+}
+
+/** menu-bar **/
+
+.Menu-box{
+    display:flex;
+    flex-direction: column;
+    height: 650px;
+    width:4.4rem;
+    display:flex;
+    align-items:center;
+    position:fixed;
+}
+
+.Menu-box P{
+    font-size:0.80rem;
+}
+.home{
+    font-size: 1.5rem;
+    margin:20px 10px 0px 10px;
+}
+.shorts{
+    font-size: 1.5rem;
+    margin:30px 10px 0px 10px;
+}
+.subs{
+    font-size: 1.5rem;
+    margin:30px 10px 0px 10px;
+}
+.library{
+    font-size: 1.5rem;
+    margin:30px 10px 0px 10px;
+}
+
+
+/** options **/
+
+.options{
+    margin-left:4.5rem;
+    padding-top: 1rem;
+    display:flex;
+    height: 50px;
+}
+
+.op{
+    background-color: rgb(26, 26, 26) ;
+    margin:10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 40px;
+    font-family:Arial;
+}
+
+.op:hover{
+    background-color:rgb(38, 38, 38);
+}
+.op1{
+    width:60px;
+}
+
+.op2{
+    width:70px;
+}
+
+.op3{
+    width: 80px;
+}
+
+.op4{
+    width: 80px;
+}
+
+.op5{
+    width: 140px;
+}
+
+.op6{
+    width: 120px;
+}
+
+.op7{
+    width: 150px;
+}
+
+.op8{
+    width: 110px;
+}
+
+.op9{
+    width: 90px;
+}
+
+/** videos **/
+
+.section{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.vid{
+    /* background-color:aquamarine; */
+    margin:5px;
+    margin-top: 2rem;
+    font-family:arial;
+}
+
+.vid1{
+    margin-left: 90px;
+}
+.img1{
+    background-image: url("vid1.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+.acc1{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc1.jpeg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+
+.desc{ 
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.about{
+    width: 280px;
+    margin-left: 0.6rem;
+    font-family: arial;
+}
+
+.acc-name{
+    font-size:0.85rem;
+    color:rgb(142, 142, 142);
+    margin: 0px 0px 10px 60px;
+}
+.views{
+    margin-left: 60px;
+    font-size:0.85rem;
+    color:rgb(142, 142, 142);
+    position:relative;
+    bottom:5px;
+}
+
+.views i{
+    font-size:0.4rem;
+    padding-left:5px;
+    padding-right: 5px;
+    position:relative;
+    bottom:2px;
+   
+}
+
+
+.img2{
+    background-image: url("vid4.webp");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc2{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc2.jpg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+.img3{
+    background-image: url("vid2.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc3{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc3.jpg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+
+.img4{
+    background-image: url("vid3.jpg_large");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc4{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc4.jpeg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+.img5{
+    background-image: url("vid6.jpeg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.img6{
+    background-image: url("vid5.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc6{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc6.jpeg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+.img7{
+    background-image: url("vid7.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc7{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc7.jpeg");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+   
+}
+.img8{
+    background-image: url("vid8.jpg");
+    background-size: cover;
+    border-radius: 15px;
+    height:200px;
+    width: 340px;
+}
+
+.acc8{
+    height:3rem;
+    width:3rem;
+    background-image: url("acc8.png");
+    background-size: cover;
+    border-radius:50%;
+    background-color:rgb(23, 22, 22);
+
+}
+
+.break{
+    height:0.25rem;
+    background-color: rgb(77, 76, 76);
+    margin: 3rem 2rem 3rem 5rem;
+    border-radius:5px;
+}
+
+.section2{
+    margin-left:90px;
+    height:385px;
+    width: 217px;
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+iframe{
+        border-radius: 15px;
+       
+}
+.s-desc1{
+    margin-top:0.5rem;
+}
+
+.s-views{
+    font-size:0.85rem;
+    color:rgb(142, 142, 142);
+    margin-top: 0.5rem;
+}
+
+.short{
+    margin-right:0.85rem;
+}
+
+.break2{
+    height:0.25rem;
+    background-color: rgb(77, 76, 76);
+    border-radius:5px;
+    margin:130px 30px 30px 80px;
+}
+
